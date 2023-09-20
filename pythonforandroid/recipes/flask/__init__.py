@@ -4,7 +4,7 @@ from pythonforandroid.recipe import PythonRecipe
 
 class FlaskRecipe(PythonRecipe):
     version = '2.0.3'
-    url = 'https://github.com/pallets/flask/archive/{version}.zip'
+    url = f'https://github.com/pallets/flask/archive/{version}.zip'
 
     depends = ['setuptools']
 
